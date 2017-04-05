@@ -86,6 +86,10 @@ target_link_libraries(polhemus_connect ${catkin_LIBRARIES} -lm -ldl)
   target_link_libraries(PiServer ${catkin_LIBRARIES} polhemus_connect -lusb-1.0)
   add_dependencies(PiServer polhemus_connect_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
 
+  add_executable(wirelessPiServer src/wirelessPiServer.cpp)
+  target_link_libraries(wirelessPiServer ${catkin_LIBRARIES} polhemus_connect -lusb-1.0)
+  add_dependencies(wirelessPiServer polhemus_connect_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
+
 #############
 ## Install ##
 #############
