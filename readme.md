@@ -12,13 +12,13 @@ libusb-1.0.0
 
 TODO: 
 ------------------
-<p>fix exit bug (does not exit cleanly)
-add terminal prompts for more flexible setups</p>
+<p>Fix exit bug (does not exit cleanly)</p>
+<p>Add terminal prompts for more flexible setups</p>
 
 Tested in 
 ---------------
 <p>Ubuntu 14.04 with Ros Indigo</p>
 
+<p> </p>
 
-<p>Most of the scripts are a modified version of the Linux code provided by Polhemus. </p>
-<p>Some Code is based on https://github.com/ana-GT/trackerd</p>
+<p>*Most of the scripts are a modified version of the Linux code provided by Polhemus. Some Code is based on https://github.com/ana-GT/trackerd</p>
